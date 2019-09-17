@@ -1,0 +1,52 @@
+.section {
+    padding-top: 2rem;
+    justify-content: space-between;
+}
+
+.how-it-works {
+    text-align: center;
+    color: #333;
+    margin: 5rem;
+    padding-top: 5rem;
+}
+
+.how {
+    font-size: 1.2rem;
+}
+
+.text {
+    letter-spacing: 0.1rem;
+    padding: 15px;
+    font-style: italic;
+    color: #333;
+    font-size: 18px;
+}
+
+.register {
+    margin-top: 1rem;
+    font-weight: bolder;
+    color: #000;
+}
+
+
+/* Table Portrait -- medium */
+@media (min-width: 40em) {
+
+}
+
+/* Tablet Landscape | desktop and above - large */
+@media (min-width: 60em) {
+        .section {
+        display: flex;
+        padding-top: 7rem;
+    }
+
+    .how {
+    font-size: 2rem;
+    }
+
+    .how-it-works {
+        padding-top: 9rem;
+    }
+}
+    

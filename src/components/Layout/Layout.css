@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.layout-container {
+    width: 100%;
+}
+
+.layout {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.btn {
+    background: #08b8dc;
+    padding: 10px;
+    border: 1px solid #08b8dc;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 30%;
+    margin-top: 40px;
+}
+
+.get-it {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: -83px;
+}
+
+.need-a-loan {
+    color: #00d0ff;
+    font-size: 3rem;
+    line-height: 1rem;
+    padding-top: 80px; 
+    
+}
+
+/* Table Portrait -- medium */
+@media (min-width: 40em) {
+    .need-a-loan {
+    font-size: 3rem;
+    }
+
+    .get-it {
+    padding-top: 6rem;
+}
+
+}
+
+/* Tablet Landscape | desktop and above - large */
+@media (min-width: 60em) {
+        .get-it {
+        font-size: 2.5rem;
+        margin-bottom: 1rem; 
+    }
+
+    .need-a-loan {
+        font-size: 4rem;
+        margin-bottom: 1rem; 
+        padding-top: 100px; 
+        
+    }
+
+    .btn {
+        width: 15rem;
+    }
+}

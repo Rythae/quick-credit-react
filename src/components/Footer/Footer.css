@@ -1,0 +1,42 @@
+.footer {
+    background: #0b728a;
+    position: relative;
+    bottom: 0;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons-container {
+    margin-bottom: 1rem;
+}
+
+/* Table Portrait -- medium */
+@media (min-width: 40em) {
+
+}
+
+/* Tablet Landscape | desktop and above - large */
+@media (min-width: 60em) {
+     .footer {
+        padding-top: 0;
+     }
+
+     .list-container {
+         padding-top: 3rem;
+     }
+}
